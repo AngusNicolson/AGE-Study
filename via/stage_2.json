@@ -1,0 +1,942 @@
+{
+  "project": {
+    "pid": "__VIA_PROJECT_ID__",
+    "rev": "__VIA_PROJECT_REV_ID__",
+    "rev_timestamp": "__VIA_PROJECT_REV_TIMESTAMP__",
+    "pname": "Utility - GA Estimate \\w model",
+    "creator": "VGG Image Annotator (http://www.robots.ox.ac.uk/~vgg/software/via)",
+    "created": 1660556362703,
+    "vid_list": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65"
+    ]
+  },
+  "config": {
+    "file": {
+      "loc_prefix": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    "ui": {
+      "file_content_align": "center",
+      "file_metadata_editor_visible": true,
+      "spatial_metadata_editor_visible": true,
+      "temporal_segment_metadata_editor_visible": true,
+      "spatial_region_label_attribute_id": "",
+      "gtimeline_visible_row_count": "4"
+    }
+  },
+  "attribute": {
+    "1": {
+      "aname": "Gestational Age Estimate (weeks)",
+      "anchor_id": "FILE1_Z0_XY0",
+      "type": 4,
+      "desc": "",
+      "options": {
+        "0": "13",
+        "1": "14",
+        "2": "15",
+        "3": "16",
+        "4": "17",
+        "5": "18",
+        "6": "19",
+        "7": "20",
+        "8": "21",
+        "9": "22",
+        "10": "23",
+        "11": "24",
+        "12": "25",
+        "13": "26",
+        "14": "27",
+        "15": "28",
+        "16": "29",
+        "17": "30",
+        "18": "31",
+        "19": "32",
+        "20": "33",
+        "21": "34",
+        "22": "35",
+        "23": "36",
+        "24": "37",
+        "25": "38",
+        "26": "39",
+        "27": "40",
+        "28": "41",
+        "29": "42"
+      },
+      "default_option_id": ""
+    },
+    "2": {
+      "aname": "How confident are you in your estimate?",
+      "anchor_id": "FILE1_Z0_XY0",
+      "type": 3,
+      "desc": "",
+      "options": {
+        "0": "1 - Not confident at all",
+        "1": "2",
+        "2": "3",
+        "3": "4",
+        "4": "5 - Very confident"
+      }
+    }
+  },
+  "file": {
+    "1": {
+      "fid": "1",
+      "fname": "./stage_2/0001.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0001.png"
+    },
+    "2": {
+      "fid": "2",
+      "fname": "./stage_2/0002.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0002.png"
+    },
+    "3": {
+      "fid": "3",
+      "fname": "./stage_2/0003.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0003.png"
+    },
+    "4": {
+      "fid": "4",
+      "fname": "./stage_2/0004.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0004.png"
+    },
+    "5": {
+      "fid": "5",
+      "fname": "./stage_2/0005.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0005.png"
+    },
+    "6": {
+      "fid": "6",
+      "fname": "./stage_2/0006.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0006.png"
+    },
+    "7": {
+      "fid": "7",
+      "fname": "./stage_2/0007.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0007.png"
+    },
+    "8": {
+      "fid": "8",
+      "fname": "./stage_2/0008.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0008.png"
+    },
+    "9": {
+      "fid": "9",
+      "fname": "./stage_2/0009.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0009.png"
+    },
+    "10": {
+      "fid": "10",
+      "fname": "./stage_2/0010.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0010.png"
+    },
+    "11": {
+      "fid": "11",
+      "fname": "./stage_2/0011.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0011.png"
+    },
+    "12": {
+      "fid": "12",
+      "fname": "./stage_2/0012.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0012.png"
+    },
+    "13": {
+      "fid": "13",
+      "fname": "./stage_2/0013.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0013.png"
+    },
+    "14": {
+      "fid": "14",
+      "fname": "./stage_2/0014.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0014.png"
+    },
+    "15": {
+      "fid": "15",
+      "fname": "./stage_2/0015.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0015.png"
+    },
+    "16": {
+      "fid": "16",
+      "fname": "./stage_2/0016.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0016.png"
+    },
+    "17": {
+      "fid": "17",
+      "fname": "./stage_2/0017.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0017.png"
+    },
+    "18": {
+      "fid": "18",
+      "fname": "./stage_2/0018.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0018.png"
+    },
+    "19": {
+      "fid": "19",
+      "fname": "./stage_2/0019.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0019.png"
+    },
+    "20": {
+      "fid": "20",
+      "fname": "./stage_2/0020.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0020.png"
+    },
+    "21": {
+      "fid": "21",
+      "fname": "./stage_2/0021.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0021.png"
+    },
+    "22": {
+      "fid": "22",
+      "fname": "./stage_2/0022.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0022.png"
+    },
+    "23": {
+      "fid": "23",
+      "fname": "./stage_2/0023.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0023.png"
+    },
+    "24": {
+      "fid": "24",
+      "fname": "./stage_2/0024.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0024.png"
+    },
+    "25": {
+      "fid": "25",
+      "fname": "./stage_2/0025.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0025.png"
+    },
+    "26": {
+      "fid": "26",
+      "fname": "./stage_2/0026.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0026.png"
+    },
+    "27": {
+      "fid": "27",
+      "fname": "./stage_2/0027.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0027.png"
+    },
+    "28": {
+      "fid": "28",
+      "fname": "./stage_2/0028.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0028.png"
+    },
+    "29": {
+      "fid": "29",
+      "fname": "./stage_2/0029.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0029.png"
+    },
+    "30": {
+      "fid": "30",
+      "fname": "./stage_2/0030.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0030.png"
+    },
+    "31": {
+      "fid": "31",
+      "fname": "./stage_2/0031.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0031.png"
+    },
+    "32": {
+      "fid": "32",
+      "fname": "./stage_2/0032.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0032.png"
+    },
+    "33": {
+      "fid": "33",
+      "fname": "./stage_2/0033.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0033.png"
+    },
+    "34": {
+      "fid": "34",
+      "fname": "./stage_2/0034.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0034.png"
+    },
+    "35": {
+      "fid": "35",
+      "fname": "./stage_2/0035.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0035.png"
+    },
+    "36": {
+      "fid": "36",
+      "fname": "./stage_2/0036.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0036.png"
+    },
+    "37": {
+      "fid": "37",
+      "fname": "./stage_2/0037.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0037.png"
+    },
+    "38": {
+      "fid": "38",
+      "fname": "./stage_2/0038.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0038.png"
+    },
+    "39": {
+      "fid": "39",
+      "fname": "./stage_2/0039.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0039.png"
+    },
+    "40": {
+      "fid": "40",
+      "fname": "./stage_2/0040.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0040.png"
+    },
+    "41": {
+      "fid": "41",
+      "fname": "./stage_2/0041.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0041.png"
+    },
+    "42": {
+      "fid": "42",
+      "fname": "./stage_2/0042.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0042.png"
+    },
+    "43": {
+      "fid": "43",
+      "fname": "./stage_2/0043.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0043.png"
+    },
+    "44": {
+      "fid": "44",
+      "fname": "./stage_2/0044.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0044.png"
+    },
+    "45": {
+      "fid": "45",
+      "fname": "./stage_2/0045.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0045.png"
+    },
+    "46": {
+      "fid": "46",
+      "fname": "./stage_2/0046.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0046.png"
+    },
+    "47": {
+      "fid": "47",
+      "fname": "./stage_2/0047.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0047.png"
+    },
+    "48": {
+      "fid": "48",
+      "fname": "./stage_2/0048.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0048.png"
+    },
+    "49": {
+      "fid": "49",
+      "fname": "./stage_2/0049.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0049.png"
+    },
+    "50": {
+      "fid": "50",
+      "fname": "./stage_2/0050.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0050.png"
+    },
+    "51": {
+      "fid": "51",
+      "fname": "./stage_2/0051.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0051.png"
+    },
+    "52": {
+      "fid": "52",
+      "fname": "./stage_2/0052.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0052.png"
+    },
+    "53": {
+      "fid": "53",
+      "fname": "./stage_2/0053.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0053.png"
+    },
+    "54": {
+      "fid": "54",
+      "fname": "./stage_2/0054.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0054.png"
+    },
+    "55": {
+      "fid": "55",
+      "fname": "./stage_2/0055.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0055.png"
+    },
+    "56": {
+      "fid": "56",
+      "fname": "./stage_2/0056.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0056.png"
+    },
+    "57": {
+      "fid": "57",
+      "fname": "./stage_2/0057.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0057.png"
+    },
+    "58": {
+      "fid": "58",
+      "fname": "./stage_2/0058.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0058.png"
+    },
+    "59": {
+      "fid": "59",
+      "fname": "./stage_2/0059.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0059.png"
+    },
+    "60": {
+      "fid": "60",
+      "fname": "./stage_2/0060.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0060.png"
+    },
+    "61": {
+      "fid": "61",
+      "fname": "./stage_2/0061.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0061.png"
+    },
+    "62": {
+      "fid": "62",
+      "fname": "./stage_2/0062.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0062.png"
+    },
+    "63": {
+      "fid": "63",
+      "fname": "./stage_2/0063.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0063.png"
+    },
+    "64": {
+      "fid": "64",
+      "fname": "./stage_2/0064.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0064.png"
+    },
+    "65": {
+      "fid": "65",
+      "fname": "./stage_2/0065.png",
+      "type": 2,
+      "loc": 3,
+      "src": "./stage_2/0065.png"
+    }
+  },
+  "metadata": {
+    "1_yXv8i7iK": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [],
+      "av": {}
+    }
+  },
+  "view": {
+    "1": {
+      "fid_list": [
+        "1"
+      ]
+    },
+    "2": {
+      "fid_list": [
+        "2"
+      ]
+    },
+    "3": {
+      "fid_list": [
+        "3"
+      ]
+    },
+    "4": {
+      "fid_list": [
+        "4"
+      ]
+    },
+    "5": {
+      "fid_list": [
+        "5"
+      ]
+    },
+    "6": {
+      "fid_list": [
+        "6"
+      ]
+    },
+    "7": {
+      "fid_list": [
+        "7"
+      ]
+    },
+    "8": {
+      "fid_list": [
+        "8"
+      ]
+    },
+    "9": {
+      "fid_list": [
+        "9"
+      ]
+    },
+    "10": {
+      "fid_list": [
+        "10"
+      ]
+    },
+    "11": {
+      "fid_list": [
+        "11"
+      ]
+    },
+    "12": {
+      "fid_list": [
+        "12"
+      ]
+    },
+    "13": {
+      "fid_list": [
+        "13"
+      ]
+    },
+    "14": {
+      "fid_list": [
+        "14"
+      ]
+    },
+    "15": {
+      "fid_list": [
+        "15"
+      ]
+    },
+    "16": {
+      "fid_list": [
+        "16"
+      ]
+    },
+    "17": {
+      "fid_list": [
+        "17"
+      ]
+    },
+    "18": {
+      "fid_list": [
+        "18"
+      ]
+    },
+    "19": {
+      "fid_list": [
+        "19"
+      ]
+    },
+    "20": {
+      "fid_list": [
+        "20"
+      ]
+    },
+    "21": {
+      "fid_list": [
+        "21"
+      ]
+    },
+    "22": {
+      "fid_list": [
+        "22"
+      ]
+    },
+    "23": {
+      "fid_list": [
+        "23"
+      ]
+    },
+    "24": {
+      "fid_list": [
+        "24"
+      ]
+    },
+    "25": {
+      "fid_list": [
+        "25"
+      ]
+    },
+    "26": {
+      "fid_list": [
+        "26"
+      ]
+    },
+    "27": {
+      "fid_list": [
+        "27"
+      ]
+    },
+    "28": {
+      "fid_list": [
+        "28"
+      ]
+    },
+    "29": {
+      "fid_list": [
+        "29"
+      ]
+    },
+    "30": {
+      "fid_list": [
+        "30"
+      ]
+    },
+    "31": {
+      "fid_list": [
+        "31"
+      ]
+    },
+    "32": {
+      "fid_list": [
+        "32"
+      ]
+    },
+    "33": {
+      "fid_list": [
+        "33"
+      ]
+    },
+    "34": {
+      "fid_list": [
+        "34"
+      ]
+    },
+    "35": {
+      "fid_list": [
+        "35"
+      ]
+    },
+    "36": {
+      "fid_list": [
+        "36"
+      ]
+    },
+    "37": {
+      "fid_list": [
+        "37"
+      ]
+    },
+    "38": {
+      "fid_list": [
+        "38"
+      ]
+    },
+    "39": {
+      "fid_list": [
+        "39"
+      ]
+    },
+    "40": {
+      "fid_list": [
+        "40"
+      ]
+    },
+    "41": {
+      "fid_list": [
+        "41"
+      ]
+    },
+    "42": {
+      "fid_list": [
+        "42"
+      ]
+    },
+    "43": {
+      "fid_list": [
+        "43"
+      ]
+    },
+    "44": {
+      "fid_list": [
+        "44"
+      ]
+    },
+    "45": {
+      "fid_list": [
+        "45"
+      ]
+    },
+    "46": {
+      "fid_list": [
+        "46"
+      ]
+    },
+    "47": {
+      "fid_list": [
+        "47"
+      ]
+    },
+    "48": {
+      "fid_list": [
+        "48"
+      ]
+    },
+    "49": {
+      "fid_list": [
+        "49"
+      ]
+    },
+    "50": {
+      "fid_list": [
+        "50"
+      ]
+    },
+    "51": {
+      "fid_list": [
+        "51"
+      ]
+    },
+    "52": {
+      "fid_list": [
+        "52"
+      ]
+    },
+    "53": {
+      "fid_list": [
+        "53"
+      ]
+    },
+    "54": {
+      "fid_list": [
+        "54"
+      ]
+    },
+    "55": {
+      "fid_list": [
+        "55"
+      ]
+    },
+    "56": {
+      "fid_list": [
+        "56"
+      ]
+    },
+    "57": {
+      "fid_list": [
+        "57"
+      ]
+    },
+    "58": {
+      "fid_list": [
+        "58"
+      ]
+    },
+    "59": {
+      "fid_list": [
+        "59"
+      ]
+    },
+    "60": {
+      "fid_list": [
+        "60"
+      ]
+    },
+    "61": {
+      "fid_list": [
+        "61"
+      ]
+    },
+    "62": {
+      "fid_list": [
+        "62"
+      ]
+    },
+    "63": {
+      "fid_list": [
+        "63"
+      ]
+    },
+    "64": {
+      "fid_list": [
+        "64"
+      ]
+    },
+    "65": {
+      "fid_list": [
+        "65"
+      ]
+    }
+  }
+}
