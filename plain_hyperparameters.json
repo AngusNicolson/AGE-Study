@@ -1,0 +1,48 @@
+
+{
+  "experiment_run": "342",
+  "base_architecture": "resnet18",
+  "img_size": 224,
+  "num_classes": 13,
+  "dropout2d": true,
+  "dropout": 0.5,
+  "train_batch_size": 64,
+  "test_batch_size": 256,
+  "lr": 1e-4,
+  "lr_step_size": 30,
+  "weight_decay": 1e-3,
+  "num_train_epochs": 240,
+  "target_accuracy": 0.60,
+  "aug_params": {
+    "skew": {
+      "probability": 0.7,
+      "magnitude": 0.2
+    },
+    "shear": {
+      "probability": 0.7,
+      "max_shear_left": 10,
+      "max_shear_right": 10
+    },
+    "distortion": {
+      "probability": 0.7,
+      "grid_height": 6,
+      "grid_width": 6,
+      "magnitude": 4
+    },
+    "rotation": {
+      "degrees": 40,
+      "fill": 0
+    },
+    "color_jitter": {
+      "brightness": 0.5,
+      "contrast": 0.3
+    },
+    "crop": {
+      "size": 224,
+      "scale": [0.3, 1.0]
+    },
+    "noise": {
+      "magnitude": 0.01
+    }
+  }
+}

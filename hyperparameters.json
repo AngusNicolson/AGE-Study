@@ -1,0 +1,72 @@
+
+{
+  "experiment_run": "667",
+  "val_fold": null,
+  "base_architecture": "resnet18",
+  "pretrained_path": null,
+  "prototype_activation_function": "log",
+  "add_on_layers_type": "regular",
+  "class_specific": false,
+  "use_l1_mask": false,
+  "num_proto_loss": 4,
+  "img_size": 224,
+  "prototype_shape": [65, 128, 1, 1],
+  "num_classes": 13,
+  "dropout": 0.5,
+  "train_batch_size": 64,
+  "test_batch_size": 128,
+  "train_push_batch_size": 75,
+  "joint_optimizer_lrs": {
+    "features": 1e-4,
+    "add_on_layers": 3e-3,
+    "prototype_vectors": 3e-3
+  },
+  "joint_lr_step_size": 60,
+  "warm_optimizer_lrs": {
+    "add_on_layers": 3e-3,
+    "prototype_vectors": 3e-3
+  },
+  "last_layer_optimizer_lr": 5e-4,
+  "weight_decay": {
+    "joint": {
+      "features": 1e-3,
+      "add_on_layers": 1e-3
+    },
+    "warm": {
+      "add_on_layers": 1e-3
+    },
+    "last_layer": 0.0
+  },
+  "coefs": {
+    "crs_ent": 1,
+    "coherence": 0.0,
+    "num_proto": 0.05,
+    "clst": 0.8,
+    "sep": -0.08,
+    "l1": 2e-4
+  },
+  "num_train_epochs": 200,
+  "num_warm_epochs": 6,
+  "num_last_only_iter": 20,
+  "push_start": 15,
+  "push_epochs_frequency": 20,
+  "target_accuracy": 0.65,
+  "do_confusion_plot": false,
+  "aug_params": {
+    "rotation": {
+      "degrees": 40,
+      "fill": 0
+    },
+    "color_jitter": {
+      "brightness": 0.5,
+      "contrast": 0.3
+    },
+    "crop": {
+      "size": 224,
+      "scale": [0.3, 1.0]
+    },
+    "resize": {
+      "size": [224, 224]
+    }
+  }
+}

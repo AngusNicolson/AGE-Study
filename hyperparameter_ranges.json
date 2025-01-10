@@ -1,0 +1,60 @@
+
+{
+  "base_architecture": ["resnet18"],
+  "prototype_activation_function": ["log"],
+  "add_on_layers_type": ["regular"],
+  "img_size": [224],
+  "prototype_shape": [[2000, 128, 1, 1]],
+  "num_classes": [200],
+  "dropout": [0.2, 0.7],
+  "train_batch_size": [64, 128, 192, 256],
+  "test_batch_size": [256],
+  "train_push_batch_size": [256],
+    "joint_optimizer_lrs": {
+    "features": [1e-4],
+    "add_on_layers": [3e-3],
+    "prototype_vectors": [3e-3]
+  },
+  "warm_optimizer_lrs": {
+    "add_on_layers": [3e-3],
+    "prototype_vectors": [3e-3]
+  },
+  "last_layer_optimizer_lr": [1e-4, 7e-4],
+  "weight_decay": {
+    "joint": {
+      "features": [1e-3],
+      "add_on_layers": [1e-3]
+    },
+    "warm": {
+      "add_on_layers": [1e-3]
+    },
+    "last_layer": [1e-3]
+  },
+  "coefs": {
+    "crs_ent": [1],
+    "coherence": [0],
+    "clst": [0.8],
+    "sep": [-0.08],
+    "l1": [1e-4]
+  },
+  "num_train_epochs": [1000],
+  "joint_lr_step_size": [200, 500],
+  "num_warm_epochs": [25, 200],
+  "push_start_delay": [25, 300],
+  "push_epochs_frequency": [50, 400],
+  "target_accuracy": [0.75],
+  "aug_params": {
+    "rotation": {
+      "degrees": [15],
+      "fill": [0]
+    },
+    "color_jitter": {
+      "brightness": [0.5],
+      "contrast": [0.3]
+    },
+    "crop": {
+      "size": [224],
+      "scale": [[0.3, 1.0]]
+    }
+  }
+}

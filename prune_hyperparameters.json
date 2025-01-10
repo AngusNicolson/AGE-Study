@@ -1,0 +1,20 @@
+
+{
+  "suffix": "000",
+  "class_threshold": 0,
+  "weight_threshold": 0.25,
+  "min_weights": 1,
+  "freeze_weights": true,
+  "k": 6,
+  "num_train_epochs": 15,
+  "lr": 1e-4,
+  "weight_decay": 0.0,
+  "coefs": {
+    "crs_ent": 1,
+    "coherence": 0.0,
+    "clst": 0.8,
+    "sep": -0.08,
+    "l1": 1e-4
+  },
+  "target_accuracy": 0.1
+}
